@@ -1,0 +1,155 @@
+/** 기본 CSS */
+
+html {
+    overflow-x:hidden;
+}
+
+body {
+    font-size:14px;
+    letter-spacing: -0.09em;
+}
+
+.splash-container {
+    position:relative;
+    max-width:980px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.sticky-element {
+    position:sticky;
+    /* display:none; */
+    display:block;
+    color: white;
+    top: 35vh;
+}
+
+.large-7 {
+    max-width:58%;
+    flex-basis:58%;
+}
+
+.large-8 {
+    max-width:66%;
+    flex-basis:66%;
+}
+
+
+.centered {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/** 섹션전체 */
+
+.scroll-section {
+	position: relative;
+	/* padding-top: 50vh; */
+}
+
+/* 
+#show-scene-0 #scroll-section-0 .sticky-elem,
+#show-scene-1 #scroll-section-1 .sticky-elem,
+#show-scene-2 #scroll-section-2 .sticky-elem,
+#show-scene-3 #scroll-section-3 .sticky-elem {
+	display: block;
+	will-change: transform, opacity;
+} */
+
+#section-introduction {
+    /* background-color: red; */
+    background-color: #131313;
+    position:relative;
+    z-index:10;
+    width:100%;
+}
+
+#section-introduction .big-header {
+    font-size:3.0rem;
+    font-weight:900;
+}
+
+#section-introduction .middle-header {
+    font-size:1.65rem;
+    font-weight:bold;
+}
+
+#section-introduction .small-header {
+    font-size:1.25rem;
+    font-weight:bold;
+    color:#86868b;
+}
+
+.black-layer {
+    position:fixed;
+    height:100%;
+    width:100%;
+    background-color:black;
+    opacity:0;
+    z-index:-1;
+}
+
+#section-introduction-1 {
+    /* background-color: red; */
+    background-color: black;
+    position:relative;
+    z-index:10;
+    width:100%;
+}
+
+
+#section-call-back {
+    background-color: black;
+}
+
+#section-call-back #message-1 {
+    position:relative;
+    text-align: center;
+    width:100%;
+    top: 40vh;
+    left: 0;
+    opacity:1;
+    padding-top:40vh;
+    background-color:red;
+}
+
+.description-style {
+    color: #a1a1a6;
+    font-size: 2.2rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+}
+
+.header-style{
+    color:white;
+    font-size:4rem;
+    font-weight: bold;
+}
+
+.cover-canvas {
+    position:fixed;
+    left:50%;
+    top:50%;
+    /* background-color:red; */
+    z-index:10;
+}
+
+.cover-video {
+    position:fixed;
+    left:50%;
+    top:50%;
+    z-index:5;
+}
+
+.image-blend-canvas.sticky {
+	position: fixed;
+	top: 0;
+}
+
+
+@media (min-width:1024px) {
+
+
+}
